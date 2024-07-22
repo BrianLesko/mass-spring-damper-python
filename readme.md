@@ -1,57 +1,32 @@
+# Mass Spring Damper Simulation
 
-# Mass Spring Damper - Simulation using transfer functions 
+This repository contains a Python simulation for a Mass-Spring-Damper system, originally inspired by MatLab simulations popular at Ohio State University during my Control System Engineering studies. The simulation solves the system's equations of motion and plots the system's response to both impulse and steady-state inputs.
 
-This simple code simulates the movement of the mass connected to a spring and damper. We test two force inputs and measure the displacement of the mass over time for each simulation. This approach is very quick to calculate.
+![System Preview](preview.png)
 
-MatLab was super popular at Ohio State during both my undergraduate and graduate studies of Control system engineering. Can the same content be written in python? Yes. It can.
+## Background
+The simulation is based on the transfer function obtained from the Laplace transform of the system's differential equation. This approach assumes the system is linear and time-invariant. While most physical systems exhibit non-linear behaviors like varying friction, the simulation provides accurate results within typical operating conditions. These simplifications make transfer function analysis a valuable tool for preliminary system behavior predictions.
 
-## Methods / Transfer functions
+## Transfer Function Assumptions
+- **Linearity**: The system must be linear, meaning its response at any instant depends only on its current state, not its history.
+- **Time Invariance**: The system's characteristics do not change over time.
 
-Taking a Laplace transform of a differential equation and using it to get a transfer function implies some important assumptions.
+Understanding the foundational assumptions of the Laplace transform is crucial for applying it correctly in practical scenarios. [Learn more about these assumptions.](https://example.com/laplace_assumptions)
 
-The system must be linnear. 
-
-The system must be time invariant. 
-
-Why? Read more into what assumptions the Laplace transform takes.  
-
-Due to these assumptions, transfer functions often provide approximations of a system's real response. In practical terms, most physical systems exhibit some degree of non-linearity; for example, friction often does not behave linearly. Since all systems experience some form of friction, perfect linearity is rare.
-
-However, this does not mean that the results from simulations based on transfer functions are not useful. The results are typically accurate within a specified range of operating conditions. Furthermore, the simplicity and efficiency of analyzing linear transfer functions make them invaluable for predicting system behavior accurately enough for many practical applications.
-
-&nbsp;
-
-<div align="center"><img src="docs/preview.gif" width="800"></div>
-
-&nbsp;
-
-<hr>
-
-&nbsp;
-
+## Simulation Preview
 <div align="center">
-
-
-
-╭━━╮╭━━━┳━━┳━━━┳━╮╱╭╮        ╭╮╱╱╭━━━┳━━━┳╮╭━┳━━━╮
-┃╭╮┃┃╭━╮┣┫┣┫╭━╮┃┃╰╮┃┃        ┃┃╱╱┃╭━━┫╭━╮┃┃┃╭┫╭━╮┃
-┃╰╯╰┫╰━╯┃┃┃┃┃╱┃┃╭╮╰╯┃        ┃┃╱╱┃╰━━┫╰━━┫╰╯╯┃┃╱┃┃
-┃╭━╮┃╭╮╭╯┃┃┃╰━╯┃┃╰╮┃┃        ┃┃╱╭┫╭━━┻━━╮┃╭╮┃┃┃╱┃┃
-┃╰━╯┃┃┃╰┳┫┣┫╭━╮┃┃╱┃┃┃        ┃╰━╯┃╰━━┫╰━╯┃┃┃╰┫╰━╯┃
-╰━━━┻╯╰━┻━━┻╯╱╰┻╯╱╰━╯        ╰━━━┻━━━┻━━━┻╯╰━┻━━━╯
-  
-
-
-&nbsp;
-
-
-<a href="https://twitter.com/BrianJosephLeko"><img src="https://raw.githubusercontent.com/BrianLesko/BrianLesko/f7be693250033b9d28c2224c9c1042bb6859bfe9/.socials/svg-white/x-logo-white.svg" width="30" alt="X Logo"></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://github.com/BrianLesko"><img src="https://raw.githubusercontent.com/BrianLesko/BrianLesko/f7be693250033b9d28c2224c9c1042bb6859bfe9/.socials/svg-white/github-mark-white.svg" width="30" alt="GitHub"></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://www.linkedin.com/in/brianlesko/"><img src="https://raw.githubusercontent.com/BrianLesko/BrianLesko/f7be693250033b9d28c2224c9c1042bb6859bfe9/.socials/svg-white/linkedin-icon-white.svg" width="30" alt="LinkedIn"></a>
-
-follow all of these for a cookie :)
-
+  <img src="docs/preview.gif" width="800">
 </div>
 
+## Connect with Me
 
-&nbsp;
+Feel free to follow my social media for updates and more projects:
 
+<div align="center">
+  <a href="https://twitter.com/BrianJosephLeko"><img src="https://raw.githubusercontent.com/BrianLesko/BrianLesko/main/.socials/svg-white/twitter-logo-white.svg" width="30" alt="Twitter Logo"></a> &#8195;
+  <a href="https://github.com/BrianLesko"><img src="https://raw.githubusercontent.com/BrianLesko/BrianLesko/main/.socials/svg-white/github-mark-white.svg" width="30" alt="GitHub"></a> &#8195;
+  <a href="https://www.linkedin.com/in/brianlesko/"><img src="https://raw.githubusercontent.com/BrianLesko/BrianLesko/main/.socials/svg-white/linkedin-icon-white.svg" width="30" alt="LinkedIn"></a>
+</div>
+
+Thank you for visiting, and enjoy simulating!
 
