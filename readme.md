@@ -11,22 +11,4 @@ The simulation is based on the transfer function obtained from the Laplace trans
 - **Linearity**: The system must be linear, meaning its response at any instant depends only on its current state, not its history.
 - **Time Invariance**: The system's characteristics do not change over time.
 
-Understanding the foundational assumptions of the Laplace transform is crucial for applying it correctly in practical scenarios. [Learn more about these assumptions.](https://example.com/laplace_assumptions)
-
-## Simulation Preview
-<div align="center">
-  <img src="docs/preview.gif" width="800">
-</div>
-
-## Connect with Me
-
-Feel free to follow my social media for updates and more projects:
-
-<div align="center">
-  <a href="https://twitter.com/BrianJosephLeko"><img src="https://raw.githubusercontent.com/BrianLesko/BrianLesko/main/.socials/svg-white/twitter-logo-white.svg" width="30" alt="Twitter Logo"></a> &#8195;
-  <a href="https://github.com/BrianLesko"><img src="https://raw.githubusercontent.com/BrianLesko/BrianLesko/main/.socials/svg-white/github-mark-white.svg" width="30" alt="GitHub"></a> &#8195;
-  <a href="https://www.linkedin.com/in/brianlesko/"><img src="https://raw.githubusercontent.com/BrianLesko/BrianLesko/main/.socials/svg-white/linkedin-icon-white.svg" width="30" alt="LinkedIn"></a>
-</div>
-
-Thank you for visiting, and enjoy simulating!
-
+Understanding the foundational assumptions of the Laplace transform is crucial for applying it correctly in practical scenarios.
